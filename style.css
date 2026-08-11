@@ -1,0 +1,17 @@
+h1  {
+    color: navy;
+    font-size: 36px;
+}
+
+/*Gestalte ALLE Absätze auf einer Seite*/
+p   { 
+   font-family: Arial, sans-serif;
+}
+
+.sonntag {
+    color: red;
+}
+
+.samstag {
+    color: blue;
+}
