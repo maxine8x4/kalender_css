@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Kalenderblatt vom 03.10.2026</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Kalenderblatt vom 03.10.2026</h1>
     <p>Der 03. Oktober 2026 ist der erste Samstag im Monat Oktober des Jahres 2026. Es handelt sich um den 276. Tag des Jahres, was bedeutet, dass es noch 89 Tage bis zum Jahresende sind. Der Monat Oktober hat insgesamt 31 Tage. Heute ist der 'Tag der deutschen Einheit', was in Deutschland ein gesetzlicher Feiertag ist.</p>
-    <table border="0"
+        <div class="grid-container">   
+    <table border="0">
             <thead>
                     <tr>
                             <th>Mo</th>
@@ -16,11 +18,12 @@
                             <th>Mi</th>
                             <th>Do</th>
                             <th>Fr</th>
-                            <th>Sa</th>
-                            <th>So</th>
+                            <th class="samstag">Sa</th>
+                            <th class="sonntag">So</th>
                     </tr>
             </thead>
             <tbody>
+                <div class="hoverable">
                     <tr>
                             <td></td>
                             <td></td>
@@ -40,7 +43,7 @@
                             <td>11</td>
                     </tr>
                     <tr>
-                            <td>12</td>
+                            <td id="heute">12</td>
                             <td>13</td>
                             <td>14</td>
                             <td>15</td>
@@ -67,13 +70,17 @@
                             <td></td>
                     </tr>
             </tbody>
+        </div>
         </table>
+        <div class="grid-item">
     <h2>Historische Ereignisse am 03.Oktober</h2>
-    <ul>
+        <ul>
             <li>1863: US-Präsident Abraham Lincoln erklärt den letzen Donnerstag im November per Proklamation zum offiziellen nationalen Erntedankfest</li>
             <li>1912: Gründung der Deutschen Bücherei in Leipzig als zentrales Archiv für deutschsprachige Literatur</li>
             <li>1990: Inkrafttreten des Einigungsvertrags und Beitritt der DDR zur Bundesrepublik Deutschland, womit die Wiedervereinigung vollzogen und der 3.Oktober zum nationalen Feiertag erklärt wurde.</li>
-    </ul>
+        </ul>
+        </div>
+</div>
 </body>
 
 </html>
