@@ -1,18 +1,21 @@
 h1 {
-    color: navy;
+    text-align: center;
+    color: rgb(173, 68, 117);
     font-size: 36px;
     font-family:Arial, Helvetica, sans-serif
 }
 h2 {
-    color: navy;
+    color: rgb(228, 183, 226);
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif
 }
     body    {
-    background-color: rgb(250, 216, 232);
+    background-color: rgb(233, 186, 208);
+    margin-left: 250px;
+    margin-right: 250px;
 }
 #heute {
-    background-color:rgb(243, 83, 203);
+    background-color: rgb(173, 68, 117);
 }
 .samstag {
     color: blue;
@@ -21,19 +24,36 @@ h2 {
     color: red;
 }
 td {
+    background-color: rgb(228, 183, 226);
     border: 1px solid black;
     text-align: center;
+    padding: 10px;
 }
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
 }
 .grid-item {
     background-color: rgb(173, 68, 117);
     padding: 20px;
     border: 2px solid rgb(49, 25, 48);
 }
-div.hoverable:hover {
-    background-color:blueviolet
+td:hover {
+    background-color:rgb(168, 104, 165);
+    text-decoration: underline;
+}
+table {
+    width: 100%
+}
+th {
+    width: 14.28%
+}
+p {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+
 }
