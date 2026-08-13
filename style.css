@@ -11,8 +11,9 @@ h2 {
 }
     body    {
     background-color: rgb(233, 186, 208);
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-top: 150px;
+    margin-left: 700px;
+    margin-right: 700px;
 }
 #heute {
     background-color: rgb(173, 68, 117);
@@ -27,16 +28,15 @@ td {
     background-color: rgb(228, 183, 226);
     border: 1px solid black;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    text-align: center;
 }
 .grid-item {
     background-color: rgb(173, 68, 117);
     padding: 20px;
+    margin-top: 40px;
     border: 2px solid rgb(49, 25, 48);
 }
 td:hover {
@@ -44,14 +44,20 @@ td:hover {
     text-decoration: underline;
 }
 table {
-    width: 100%
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 th {
     width: 14.28%
 }
 p {
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
 }
 ul {
     font-family: Arial, Helvetica, sans-serif;
