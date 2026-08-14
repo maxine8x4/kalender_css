@@ -2,18 +2,19 @@ h1 {
     text-align: center;
     color: rgb(173, 68, 117);
     font-size: 36px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 h2 {
     color: rgb(228, 183, 226);
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
-    body    {
+body    {
     background-color: rgb(233, 186, 208);
     margin-top: 150px;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
 }
 #heute {
     background-color: rgb(173, 68, 117);
@@ -37,6 +38,9 @@ td {
     background-color: rgb(173, 68, 117);
     padding: 20px;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
     border: 2px solid rgb(49, 25, 48);
 }
 td:hover {
@@ -49,7 +53,7 @@ table {
     margin-bottom: 80px;
 }
 th {
-    width: 14.28%
+    width: 14.28%;
 }
 p {
     text-align: center;
