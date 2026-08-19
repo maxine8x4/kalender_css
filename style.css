@@ -47,7 +47,7 @@ td {
     max-width: 800px;
     border: 2px solid rgb(49, 25, 48);
     border-radius: 90px;
-    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2)
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
 }
 td:hover {
     background-color:rgb(168, 104, 165);
@@ -78,7 +78,7 @@ ul {
 }
 
 li {
-    diplay: flex;
+    display: flex;
     justify-content: flex-start;
 }
 
