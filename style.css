@@ -5,12 +5,21 @@ h1 {
     font-size: 400%;
     font-family: cursive;
 }
+
 h2 {
+    color: rgb(173, 68, 117);
+    text-align: center;
+    font-size: 200%;
+    font-family: cursive;
+}   
+
+h3 {
     color: rgb(228, 183, 226);
     text-align: center;
     font-size: 200%;
     font-family: cursive;
 }
+
 body    {
     background-color: rgb(233, 186, 208);
     margin-top: 120px;
@@ -18,15 +27,19 @@ body    {
     margin-right: auto;
     max-width: 1200px;
 }
+
 #heute {
     background-color: rgb(173, 68, 117);
 }
+
 .samstag {
     color: blue;
 }
+
 .sonntag {
     color: red;
 }
+
 td {
     background-color: rgb(228, 183, 226);
     border: 2px solid black;
@@ -49,19 +62,23 @@ td {
     border-radius: 90px;
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.2);
 }
+
 td:hover {
     background-color:rgb(168, 104, 165);
     text-decoration: underline;
 }
+
 table {
     width: 100%;
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
 th {
     width: 14.28%;
     font-size: 160%;
 }
+
 p {
     text-align: center;
     font-family: cursive;
@@ -70,6 +87,7 @@ p {
     margin-bottom: 80px;
     
 }
+
 ul {
     font-size: 140%;
     font-family: cursive;
